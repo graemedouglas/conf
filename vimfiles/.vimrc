@@ -49,4 +49,4 @@ set ignorecase
 set smartcase
 set scrolloff=3
 set history=1000
-set nu				" Show line numbers along the side.
+"set nu				" Show line numbers along the side.
