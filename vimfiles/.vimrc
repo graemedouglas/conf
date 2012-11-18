@@ -19,7 +19,8 @@ endif
 " according to the detected filetype.
 if has("autocmd")
   filetype on
-  filetype plugin indent on
+  filetype plugin on
+  filetype indent on
 endif
 
 " The following are commented out as they cause vim to behave a lot
@@ -63,3 +64,4 @@ nnoremap <C-t>     :tabnew<CR>
 inoremap <C-S-a> <Esc>:tabprevious<CR>i
 inoremap <C-A-z>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
+
